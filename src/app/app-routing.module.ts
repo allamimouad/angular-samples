@@ -1,14 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { Home66Component } from './chapter6/6.6/home66/home66.component';
-import { ProductDeatilComponent } from './chapter6/6.6/product-deatil/product-deatil.component';
+import { ResizeFoo712Component } from './chapter7/7.1.2/resize-foo712/resize-foo712.component';
 
 const routes: Routes = [
-    {path : "", component : Home66Component ,
-        children : [
-            {path : "productDetail/:id", component : ProductDeatilComponent}
-        ]
-    }
+    {path : "", component : ResizeFoo712Component }
 ];
 
 @NgModule({

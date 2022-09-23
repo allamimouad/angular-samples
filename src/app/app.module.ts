@@ -12,6 +12,9 @@ import {HttpClientModule} from '@angular/common/http';
 import { Foo65Component } from './chapter6/6.5/foo65/foo65.component';
 import { ProductDeatilComponent } from './chapter6/6.6/product-deatil/product-deatil.component';
 import { Home66Component } from './chapter6/6.6/home66/home66.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { FlexLayout711Component } from './chapter7/7.1.1/flex-layout711/flex-layout711.component';
+import { ResizeFoo712Component } from './chapter7/7.1.2/resize-foo712/resize-foo712.component';
 
 @NgModule({
   declarations: [
@@ -22,13 +25,16 @@ import { Home66Component } from './chapter6/6.6/home66/home66.component';
     WeatherComponent,
     Foo65Component,
     ProductDeatilComponent,
-    Home66Component
+    Home66Component,
+    FlexLayout711Component,
+    ResizeFoo712Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
