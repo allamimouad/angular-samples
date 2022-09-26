@@ -17,6 +17,8 @@ import { FlexLayout711Component } from './chapter7/7.1.1/flex-layout711/flex-lay
 import { ResizeFoo712Component } from './chapter7/7.1.2/resize-foo712/resize-foo712.component';
 import { OrderProcessor821Component } from './chapter8/8.2.1/order-processor821/order-processor821.component';
 import { Home821Component } from './chapter8/8.2.1/home821/home821.component';
+import { PriceQuoter822Component } from './chapter8/8.2.2/price-quoter822/price-quoter822.component';
+import { Home822Component } from './chapter8/8.2.2/home822/home822.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { Home821Component } from './chapter8/8.2.1/home821/home821.component';
     FlexLayout711Component,
     ResizeFoo712Component,
     OrderProcessor821Component,
-    Home821Component
+    Home821Component,
+    PriceQuoter822Component,
+    Home822Component
   ],
   imports: [
     BrowserModule,
