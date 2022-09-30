@@ -7,8 +7,8 @@ import { PriceQuote } from '../price-quoter822/price-quoter822.component';
     <p>
       home822 works!
     </p>
-    AppComponent received: {{priceQuote?.stockSymbol}}
-                          {{priceQuote?.lastPrice | currency:'USD'}}
+    AppComponent received: {{priceQuote.stockSymbol}}
+                          {{priceQuote.lastPrice | currency:'USD'}}
     <app-price-quoter822 (lastPrice2)="priceQuoteHandler($event)"></app-price-quoter822 >
   `,
   styles: [

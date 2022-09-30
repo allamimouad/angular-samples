@@ -15,8 +15,8 @@ export interface PriceQuote {
       price-quoter822 works!
     </p>
     <strong>Inside PriceQuoterComponent:
-        {{priceQuote?.stockSymbol}}
-        {{priceQuote?.lastPrice | currency: 'USD'}}
+        {{priceQuote.stockSymbol}}
+        {{priceQuote.lastPrice | currency: 'USD'}}
     </strong>
   `,
   styles: [

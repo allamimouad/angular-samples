@@ -19,6 +19,9 @@ import { OrderProcessor821Component } from './chapter8/8.2.1/order-processor821/
 import { Home821Component } from './chapter8/8.2.1/home821/home821.component';
 import { PriceQuoter822Component } from './chapter8/8.2.2/price-quoter822/price-quoter822.component';
 import { Home822Component } from './chapter8/8.2.2/home822/home822.component';
+import { HomeMediator831Component } from './chapter8/8.3.1/home-mediator831/home-mediator831.component';
+import { PriceQuoter831Component } from './chapter8/8.3.1/price-quoter831/price-quoter831.component';
+import { Order831Component } from './chapter8/8.3.1/order831/order831.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { Home822Component } from './chapter8/8.2.2/home822/home822.component';
     OrderProcessor821Component,
     Home821Component,
     PriceQuoter822Component,
-    Home822Component
+    Home822Component,
+    HomeMediator831Component,
+    PriceQuoter831Component,
+    Order831Component
   ],
   imports: [
     BrowserModule,
