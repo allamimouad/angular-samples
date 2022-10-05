@@ -22,6 +22,10 @@ import { Home822Component } from './chapter8/8.2.2/home822/home822.component';
 import { HomeMediator831Component } from './chapter8/8.3.1/home-mediator831/home-mediator831.component';
 import { PriceQuoter831Component } from './chapter8/8.3.1/price-quoter831/price-quoter831.component';
 import { Order831Component } from './chapter8/8.3.1/order831/order831.component';
+import { Home832Component } from './chapter8/8.3.2/home832/home832.component';
+import { Search832Component } from './chapter8/8.3.2/search832/search832.component';
+import { Amazon832Component } from './chapter8/8.3.2/amazon832/amazon832.component';
+import { Ebay832Component } from './chapter8/8.3.2/ebay832/ebay832.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +45,11 @@ import { Order831Component } from './chapter8/8.3.1/order831/order831.component'
     Home822Component,
     HomeMediator831Component,
     PriceQuoter831Component,
-    Order831Component
+    Order831Component,
+    Home832Component,
+    Search832Component,
+    Amazon832Component,
+    Ebay832Component
   ],
   imports: [
     BrowserModule,
