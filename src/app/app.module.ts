@@ -28,6 +28,8 @@ import { Amazon832Component } from './chapter8/8.3.2/amazon832/amazon832.compone
 import { Ebay832Component } from './chapter8/8.3.2/ebay832/ebay832.component';
 import { Parent84Component } from './chapter8/8.4/parent84/parent84.component';
 import { Child84Component } from './chapter8/8.4/child84/child84.component';
+import { Child85Component } from './chapter8/8.5/child85/child85.component';
+import { Parent85Component } from './chapter8/8.5/parent85/parent85.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +55,9 @@ import { Child84Component } from './chapter8/8.4/child84/child84.component';
     Amazon832Component,
     Ebay832Component,
     Parent84Component,
-    Child84Component
+    Child84Component,
+    Child85Component,
+    Parent85Component
   ],
   imports: [
     BrowserModule,

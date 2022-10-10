@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { Parent84Component } from './chapter8/8.4/parent84/parent84.component';
+import { Parent85Component } from './chapter8/8.5/parent85/parent85.component';
 
 const routes: Routes = [
-    {path : "", component : Parent84Component }
+    {path : "", component : Parent85Component }
 ];
 
 @NgModule({
