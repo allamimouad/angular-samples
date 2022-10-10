@@ -30,6 +30,8 @@ import { Parent84Component } from './chapter8/8.4/parent84/parent84.component';
 import { Child84Component } from './chapter8/8.4/child84/child84.component';
 import { Child85Component } from './chapter8/8.5/child85/child85.component';
 import { Parent85Component } from './chapter8/8.5/parent85/parent85.component';
+import { Child852Component } from './chapter8/8.5.2/child852/child852.component';
+import { Parent852Component } from './chapter8/8.5.2/parent852/parent852.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +59,9 @@ import { Parent85Component } from './chapter8/8.5/parent85/parent85.component';
     Parent84Component,
     Child84Component,
     Child85Component,
-    Parent85Component
+    Parent85Component,
+    Child852Component,
+    Parent852Component
   ],
   imports: [
     BrowserModule,
