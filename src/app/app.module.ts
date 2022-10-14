@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -32,6 +32,8 @@ import { Child85Component } from './chapter8/8.5/child85/child85.component';
 import { Parent85Component } from './chapter8/8.5/parent85/parent85.component';
 import { Child852Component } from './chapter8/8.5.2/child852/child852.component';
 import { Parent852Component } from './chapter8/8.5.2/parent852/parent852.component';
+import { Parent921Component } from './chapter9/9.2.1/parent921/parent921.component';
+import { Child921Component } from './chapter9/9.2.1/child921/child921.component';
 
 @NgModule({
   declarations: [
@@ -61,14 +63,17 @@ import { Parent852Component } from './chapter8/8.5.2/parent852/parent852.compone
     Child85Component,
     Parent85Component,
     Child852Component,
-    Parent852Component
+    Parent852Component,
+    Parent921Component,
+    Child921Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
